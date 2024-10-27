@@ -6,7 +6,13 @@
 // @author       Yuxiu
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mayohr.com
 // @grant        none
+// @match        https://*.mayohr.com/foundation*
+// @match        https://*.mayohr.com/ta*
+// @match        https://*.mayohr.com/attendance*
+// @match        https://*.mayohr.com/payroll*
 // ==/UserScript==
+
+
 
 function setNewTitle() {
     var menu = "li.apollo-sidebar-navigation-item.active div.apollo-sidebar-navigation-text";
