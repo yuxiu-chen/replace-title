@@ -28,7 +28,6 @@ function setNewTitle() {
     var newTitle = document.querySelector(menu).innerHTML;
 
     newTitle = newTitle.replace(/<span[^>]*>/g,'').replace(/<\/span>/g,'').replace(/<\!--.*?-->/g, "");
-    console.log("yuxiu", newTitle)
     document.title = newTitle;
 }
 
