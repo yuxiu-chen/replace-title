@@ -5,6 +5,8 @@
 // @description  try to take over the world!
 // @author       Yuxiu
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mayohr.com
+// @downloadURL  https://raw.githubusercontent.com/yuxiu-chen/replace-title/refs/heads/main/replace-title.js
+// @updateURL    https://raw.githubusercontent.com/yuxiu-chen/replace-title/refs/heads/main/replace-title.js
 // @grant        none
 // @match        https://*.mayohr.com/foundation*
 // @match        https://*.mayohr.com/ta*
