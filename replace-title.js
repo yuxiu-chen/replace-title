@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         改 Title
 // @namespace    http://tampermonkey.net/
-// @version      2024-10-30
+// @version      2024-11-04
 // @description  try to take over the world!
 // @author       Yuxiu
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mayohr.com
