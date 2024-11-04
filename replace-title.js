@@ -25,8 +25,6 @@ function setNewTitle() {
         menu = "li.sc-bXCLTC.active div.sc-hmdomO"
     }
 
-    console.log('yuxiu', menu);
-
     var newTitle = document.querySelector(menu).innerHTML;
 
     newTitle = newTitle.replace(/<span[^>]*>/g,'').replace(/<\/span>/g,'').replace(/<\!--.*?-->/g, "");
