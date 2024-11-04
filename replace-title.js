@@ -17,13 +17,15 @@
 function setNewTitle() {
     var menu = "li.apollo-sidebar-navigation-item.active div.apollo-sidebar-navigation-text";
 
-    if(window.location.href.indexOf("attendance") > -1) { // PY
+    if(window.location.href.indexOf("payroll/") > -1) { // PY
         menu = "li.apollo-sidebar-navigation-item.active span"
     }
 
-    if(window.location.href.indexOf("attendance") > -1) { // PT 出勤記錄管理
-        menu = "li.sc-bXCLTC.etuLpc.active div.sc-hmdomO.gACZpk"
+    if(window.location.href.indexOf("attendance/") > -1) { // PT 出勤記錄管理
+        menu = "li.sc-bXCLTC.active div.sc-hmdomO"
     }
+
+    console.log('yuxiu', menu);
 
     var newTitle = document.querySelector(menu).innerHTML;
 
