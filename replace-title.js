@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         改 Title
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-04
+// @version      2024-11-07
 // @description  try to take over the world!
 // @author       Yuxiu
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=mayohr.com
@@ -17,11 +17,11 @@
 function setNewTitle() {
     var menu = "li.apollo-sidebar-navigation-item.active div.apollo-sidebar-navigation-text";
 
-    if(window.location.href.indexOf("payroll/") > -1) { // PY
+    if(window.location.href.indexOf("mayohr.com/payroll/") > -1) { // PY
         menu = "li.apollo-sidebar-navigation-item.active span"
     }
 
-    if(window.location.href.indexOf("attendance/") > -1) { // PT 出勤記錄管理
+    if(window.location.href.indexOf("mayohr.com/attendance/") > -1) { // PT 出勤記錄管理
         menu = "li.sc-bXCLTC.active div.sc-hmdomO"
     }
 
